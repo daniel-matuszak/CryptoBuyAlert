@@ -1,0 +1,38 @@
+.body { 
+    /* The image used */
+    background-image: url("https://s2.coinmarketcap.com/static/img/coins/32x32/1.png");  
+    height: 300px;
+    width: 350px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.blinking{
+    animation:blinkingText 2s infinite;
+    font-weight: bold;
+    font-family: "Verdana";
+    font-size: 20px;
+}
+
+@keyframes blinkingText{
+    0%{        color: #000;    }
+    30%{    color: red;    }
+    50%{    color: black;    }
+    99%{    color: white;    }
+    100%{    color: rgb(247, 3, 3);    }
+}
+.button {
+    background-color: rgb(45, 175, 255);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Crypto FOMO buy/sell",
+    "version": "1.2.2",
+    "description": "Indicator for which cryptocurrencies are about to make a move so you can FOMO buy or sell.",
+    "background": {
+        "scripts": ["main.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "notifications"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
